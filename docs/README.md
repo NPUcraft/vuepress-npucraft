@@ -12,7 +12,7 @@ features: # 可选的
   imgUrl: /img/web.png
 - title: 项目文档
   details: 
-  link: /development/docs/lingcat-bot/
+  link: /docs/lingcat-bot/
   imgUrl: /img/ui.png
 - title: 效果展示
   details: 

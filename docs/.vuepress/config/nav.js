@@ -14,30 +14,93 @@ module.exports = [
         // link: '/basic/',
         items: [
             {
-                text: 'MC扫盲', link: '/basic/mc/',
+                text: '扫盲',
+                // link: '/basic/introduction/',
                 items: [
-                    {text: 'MC简介', link: '/basic/mc/introduction/'},
-                    {text: '客户端', link: '/basic/mc/client/'},
-                    {text: '服务端', link: '/basic/mc/server/'},
+                    {text: 'Minecraft简介', link: '/basic/introduction/mc/'},
+                    {text: '客户端', link: '/basic/introduction/client/'},
+                    {text: '服务端', link: '/basic/introduction/server/'},
                 ]
             },
             {
-                text: '编程语言', link: '/basic/language/',
+                text: '开服指南',
+                // link: '/basic/setup',
                 items: [
-                    {text: 'C++', link: '/basic/language/cpp/'},
-                    {text: 'Java', link: '/basic/language/java/'},
-                    {text: 'Python', link: '/basic/language/python/'},
-                    {text: 'JavaScript', link: '/basic/language/javascript/'},
+                    {
+                        text: '服务端核心',
+                        link: '/basic/setup/server_core/vanilla/',
+                        items: [
+                            {text: 'Vanilla', link: '/basic/setup/server_core/vanilla/'},
+                            {text: 'Forge', link: '/basic/setup/server_core/forge/'},
+                            {text: 'Fabric', link: '/basic/setup/server_core/fabric/'},
+                            {text: 'Spigot', link: '/basic/setup/server_core/spigot/'},
+                            {text: 'Paper', link: '/basic/setup/server_core/paper/'},
+                            {text: 'Mohist', link: '/basic/setup/server_core/mohist/'},
+                        ]
+                    },
+                    {
+                        text: '群组服代理',
+                        link: '/basic/setup/proxy/bungeecord/',
+                        items: [
+                            {text: 'BungeeCord', link: '/basic/setup/proxy/bungeecord/'},
+                            {text: 'Waterfall', link: '/basic/setup/proxy/waterfall/'},
+                            {text: 'Velocity', link: '/basic/setup/proxy/velocity/'},
+                        ]
+                    },
                 ]
             },
             {
-                text: '专业知识', link: '/basic/course/',
+                text: '常用插件/模组',
+                // link: '/basic/plugin_mod/',
                 items: [
-                    {text: '数据结构', link: '/basic/course/data_structure/'},
-                    {text: '计算机操作系统', link: '/basic/course/operating_system/'},
-                    {text: '数据库系统', link: '/basic/course/database/'},
-                    {text: '计算机网络', link: '/basic/course/network/'},
-                    {text: '算法设计与分析', link: '/basic/course/algorithm/'},
+                    {
+                        text: '客户端',
+                        link: '/basic/plugin_and_mod/client/voxelmap/',
+                        items: [
+                            {text: 'VoxelMap', link: '/basic/plugin_and_mod/client/voxelmap/'},
+                            {text: 'Litematica', link: '/basic/plugin_and_mod/client/litematica/'},
+                            {text: 'Wthit', link: '/basic/plugin_and_mod/client/wthit/'},
+                            {text: 'Tweakeroo', link: '/basic/plugin_and_mod/client/tweakeroo/'}
+                        ]
+                    },
+                    {
+                        text: '服务端',
+                        link: '/basic/plugin_and_mod/server/authme/',
+                        items: [
+                            {text: 'Authme', link: '/basic/plugin_and_mod/server/authme/'},
+                            {text: 'SkinsRestorer', link: '/basic/plugin_and_mod/server/skinsrestorer/'},
+                            {text: 'CoreProtect', link: '/basic/plugin_and_mod/server/coreprotect/'},
+                            {text: 'LuckPerms', link: '/basic/plugin_and_mod/server/luckperms/'},
+                            {text: 'EssentialsX', link: '/basic/plugin_and_mod/server/essentialsx/'},
+                        ]
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        text: '专业学习',
+        // link: '/knowledge/',
+        items: [
+            {
+                text: '编程语言',
+                // link: '/knowledge/language/',
+                items: [
+                    {text: 'C++', link: '/knowledge/language/cpp/'},
+                    {text: 'Java', link: '/knowledge/language/java/'},
+                    {text: 'Python', link: '/knowledge/language/python/'},
+                    {text: 'JavaScript', link: '/knowledge/language/javascript/'},
+                ]
+            },
+            {
+                text: '学科知识',
+                // link: '/knowledge/course/',
+                items: [
+                    {text: '数据结构', link: '/knowledge/course/data_structure/'},
+                    {text: '计算机操作系统', link: '/knowledge/course/operating_system/'},
+                    {text: '数据库系统', link: '/knowledge/course/database/'},
+                    {text: '计算机网络', link: '/knowledge/course/network/'},
+                    {text: '算法设计与分析', link: '/knowledge/course/algorithm/'},
                 ]
             },
         ]
@@ -47,14 +110,16 @@ module.exports = [
         // link: '/development/',
         items: [
             {
-                text: '准备', link: '/development/start/',
+                text: '准备',
+                // link: '/development/start/',
                 items: [
                     {text: 'Git使用', link: '/development/start/git/'},
                     {text: '文档写作', link: '/development/start/write/'},
                 ]
             },
             {
-                text: 'MC开发', link: '/development/mc/',
+                text: 'MC开发',
+                // link: '/development/mc/',
                 items: [
                     {text: '资源包', link: '/development/mc/source_package/'},
                     {text: '指令系统', link: '/development/mc/command/'},
@@ -65,7 +130,8 @@ module.exports = [
                 ]
             },
             {
-                text: '模型制作', link: '/development/model/',
+                text: '模型制作',
+                // link: '/development/model/',
                 items: [
                     {text: 'blockbench', link: '/development/model/blockbench/'},
                     {text: 'blender', link: '/development/model/blender/'},
@@ -73,29 +139,11 @@ module.exports = [
                 ]
             },
             {
-                text: '动画制作', link: '/development/animation/',
+                text: '动画制作',
+                // link: '/development/animation/',
                 items: [
                     {text: 'ReplayMod', link: '/development/animation/replaymod/'},
                     {text: 'Lumion', link: '/development/animation/lumion/'},
-                ]
-            }
-        ]
-    },
-    {
-        text: '实用工具',
-        // link: '/tools/',
-        items: [
-            {
-                text: '网络工具', link: '/tools/network/',
-                items: [
-                    {text: 'Frp', link: '/tools/network/frp/'},
-                    {text: 'Nginx', link: '/tools/network/nginx/'},
-                ]
-            },
-            {
-                text: 'MC管理', link: '/tools/mc/',
-                items: [
-                    {text: 'MCSManager', link: '/tools/mc/mcsmanager/'},
                 ]
             }
         ]
@@ -112,11 +160,33 @@ module.exports = [
         ]
     },
     {
+        text: '实用工具',
+        // link: '/tools/',
+        items: [
+            {
+                text: '网络工具',
+                // link: '/tools/network/',
+                items: [
+                    {text: 'Frp', link: '/tools/network/frp/'},
+                    {text: 'Nginx', link: '/tools/network/nginx/'},
+                ]
+            },
+            {
+                text: '服务端管理',
+                // link: '/tools/mc/',
+                items: [
+                    {text: 'MCSManager', link: '/tools/mc/mcsmanager/'},
+                ]
+            }
+        ]
+    },
+    {
         text: '效果展示',
         // link: '/display/',
         items: [
             {
-                text: '虚拟校园', link: '/display/virtual_campus/',
+                text: '虚拟校园',
+                // link: '/display/virtual_campus/',
                 items: [
                     {text: '操作指南', link: '/display/virtual_campus/'},
                     {text: '浏览', link: 'http://virtualcampus.npucraft.com/'}

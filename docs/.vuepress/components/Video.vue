@@ -28,7 +28,7 @@ export default {
       height: '500', // 设置视频播放器的显示高度（以像素为单位）
       preload: 'auto', //  建议浏览器是否应在<video>加载元素后立即开始下载视频数据。
       controls: true, // 确定播放器是否具有用户可以与之交互的控件。没有控件，启动视频播放的唯一方法是使用autoplay属性或通过Player API。
-      autoplay: ''
+      autoplay: false
     }
   }
 

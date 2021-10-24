@@ -23,9 +23,12 @@
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.3",
-    "yamljs": "^0.3.0"
+    "yamljs": "^0.3.0",
+    "vue-video-player": "^5.0.2",
+    "videojs-contrib-hls": "^5.15.0"
   },
   "dependencies": {
+    "video.js": "^7.15.4",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }

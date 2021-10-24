@@ -27,7 +27,7 @@ module.exports = [
                 // link: '/basic/setup',
                 items: [
                     {
-                        text: '服务端核心',
+                        text: '服务器核心',
                         link: '/basic/setup/server_core/vanilla/',
                         items: [
                             {text: 'Vanilla', link: '/basic/setup/server_core/vanilla/'},
@@ -39,7 +39,7 @@ module.exports = [
                         ]
                     },
                     {
-                        text: '群组服代理',
+                        text: '服务器代理',
                         link: '/basic/setup/proxy/bungeecord/',
                         items: [
                             {text: 'BungeeCord', link: '/basic/setup/proxy/bungeecord/'},
@@ -60,7 +60,8 @@ module.exports = [
                             {text: 'VoxelMap', link: '/basic/plugin_and_mod/client/voxelmap/'},
                             {text: 'Litematica', link: '/basic/plugin_and_mod/client/litematica/'},
                             {text: 'Wthit', link: '/basic/plugin_and_mod/client/wthit/'},
-                            {text: 'Tweakeroo', link: '/basic/plugin_and_mod/client/tweakeroo/'}
+                            {text: 'Tweakeroo', link: '/basic/plugin_and_mod/client/tweakeroo/'},
+                            {text: 'ReplayMod', link: '/basic/plugin_and_mod/client/replaymod/'}
                         ]
                     },
                     {
@@ -121,8 +122,7 @@ module.exports = [
                 text: 'MC开发',
                 // link: '/development/mc/',
                 items: [
-                    {text: '资源包', link: '/development/mc/source_package/'},
-                    {text: '指令系统', link: '/development/mc/command/'},
+                    {text: '资源包', link: '/development/mc/resource_package/'},
                     {text: '数据包', link: '/development/mc/data_pack/'},
                     {text: 'Forge模组', link: '/development/mc/forge/'},
                     {text: 'Fabric模组', link: '/development/mc/fabric/'},
@@ -130,19 +130,19 @@ module.exports = [
                 ]
             },
             {
-                text: '模型制作',
+                text: '建模',
                 // link: '/development/model/',
                 items: [
-                    {text: 'blockbench', link: '/development/model/blockbench/'},
-                    {text: 'blender', link: '/development/model/blender/'},
+                    {text: 'Blockbench', link: '/development/model/blockbench/'},
+                    {text: 'Blender', link: '/development/model/blender/'},
                     {text: '3dsMAX', link: '/development/model/3dsmax/'},
                 ]
             },
             {
-                text: '动画制作',
+                text: '动画',
                 // link: '/development/animation/',
                 items: [
-                    {text: 'ReplayMod', link: '/development/animation/replaymod/'},
+                    {text: 'Blockbuster', link: '/development/animation/blockbuster/'},
                     {text: 'Lumion', link: '/development/animation/lumion/'},
                 ]
             }
@@ -153,8 +153,8 @@ module.exports = [
         // link: '/docs/',
         items: [
             {text: 'LingCat-bot', link: '/docs/lingcat-bot/'},
-            {text: 'Forge建筑mod', link: '/docs/build-the-world-for-npu/'},
-            {text: 'Fabric建筑mod', link: '/docs/npu_construction_mod/'},
+            {text: '复原工程Forge版mod', link: '/docs/build-the-world-for-npu/'},
+            {text: '复原工程Fabric版mod', link: '/docs/npu_construction_mod/'},
             {text: 'jmc2obj模型导出', link: '/docs/jmc2obj/'},
             {text: '洞穴与山崖数据包', link: '/docs/npu_caves_cliffs/'},
         ]

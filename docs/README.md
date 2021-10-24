@@ -4,7 +4,7 @@ heroText: NPUcraft 有你所想
 tagline: 
 actionText: 快速入门 →
 actionLink: /development/start/git/
-lang: zh-cn
+lang: zh-CN
 features: # 可选的
 - title: 简介
   details: 

@@ -7,7 +7,7 @@ actionLink: /development/start/git/
 lang: zh-CN
 features: # 可选的
 - title: 简介
-  details: 
+  details: webhook测试
   link: /guide/introduction/
   imgUrl: /img/web.png
 - title: 项目文档

@@ -6,7 +6,7 @@ module.exports = {
   // theme: 'vdoing', // 使用npm包主题
   theme: require.resolve('../../theme-vdoing'), // 使用本地主题
   dest: './dist',
-  port: '8081',
+  port: '8000',
   title: "Development Documents",
   description: 'NPUcraft开发文档。Java,JS,Python,Shell,Web,Minecraft',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'

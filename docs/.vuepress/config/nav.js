@@ -102,6 +102,7 @@ module.exports = [
                     {text: '数据库系统', link: '/knowledge/course/database/'},
                     {text: '计算机网络', link: '/knowledge/course/network/'},
                     {text: '算法设计与分析', link: '/knowledge/course/algorithm/'},
+                    {text: 'Linux基础', link: '/knowledge/course/linux/'},
                 ]
             },
         ]
@@ -119,14 +120,36 @@ module.exports = [
                 ]
             },
             {
-                text: 'MC开发',
+                text: '原版开发',
                 // link: '/development/mc/',
                 items: [
-                    {text: '资源包', link: '/development/mc/resource_package/'},
-                    {text: '数据包', link: '/development/mc/data_pack/'},
-                    {text: 'Forge模组', link: '/development/mc/forge/'},
-                    {text: 'Fabric模组', link: '/development/mc/fabric/'},
-                    {text: 'Bukkit插件', link: '/development/mc/bukkit/'},
+                    {text: '资源包', link: '/development/official/resource_package/'},
+                    {text: '数据包', link: '/development/official/data_pack/'},
+                ]
+            },
+            {
+                text: '非原版开发',
+                // link: '/development/mc/',
+                items: [
+                    {
+                        text: '模组', link: '/development/unofficial/mod/forge/',
+                        items: [
+                            {text: 'Forge', link: '/development/unofficial/mod/forge/'},
+                            {text: 'Fabric', link: '/development/unofficial/mod/fabric/'},
+                        ]
+                    },
+                    {
+                        text: '插件', link: '/development/unofficial/plugin/bukkit/',
+                        items: [
+                            {text: 'Bukkit', link: '/development/unofficial/plugin/bukkit/'},
+                            {text: 'Spigot', link: '/development/unofficial/plugin/spigot/'},
+                            {text: 'Paper', link: '/development/unofficial/plugin/paper/'},
+                            {text: 'Sponge', link: '/development/unofficial/plugin/sponge/'},
+                            {text: 'Velocity', link: '/development/unofficial/plugin/velocity/'},
+                            {text: 'BungeeCord', link: '/development/unofficial/plugin/bungeecord/'},
+                            {text: 'Waterfall', link: '/development/unofficial/plugin/waterfall/'},
+                        ]
+                    },
                 ]
             },
             {

@@ -18,7 +18,6 @@ features: # 可选的
   details: 虚拟校园效果展示【开发中】
   link: /display/virtual_campus/
   imgUrl: /img/other.png
-postList: simple
-simplePostListLength: 5
+postList: none
 ---
 

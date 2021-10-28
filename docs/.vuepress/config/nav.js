@@ -2,11 +2,11 @@
 module.exports = [
     {text: '首页', link: '/'},
     {
-        text: '指南',
-        // link: '/guide/',
+        text: '介绍',
+        // link: '/intro/',
         items: [
-            {text: '本站介绍', link: '/guide/introduction/'},
-            {text: '复原工程简介', link: '/guide/reconstruction/'},
+            {text: '本站介绍', link: '/intro/this/'},
+            {text: '复原工程简介', link: '/intro/reconstruction/'},
         ]
     },
     {
@@ -69,10 +69,16 @@ module.exports = [
                         link: '/basic/plugin_and_mod/server/authme/',
                         items: [
                             {text: 'Authme', link: '/basic/plugin_and_mod/server/authme/'},
-                            {text: 'SkinsRestorer', link: '/basic/plugin_and_mod/server/skinsrestorer/'},
+                            {text: 'AdvancedPortals', link: '/basic/plugin_and_mod/server/advancedportals/'},
                             {text: 'CoreProtect', link: '/basic/plugin_and_mod/server/coreprotect/'},
-                            {text: 'LuckPerms', link: '/basic/plugin_and_mod/server/luckperms/'},
                             {text: 'EssentialsX', link: '/basic/plugin_and_mod/server/essentialsx/'},
+                            {text: 'SkinsRestorer', link: '/basic/plugin_and_mod/server/skinsrestorer/'},
+                            {text: 'LuckPerms', link: '/basic/plugin_and_mod/server/luckperms/'},
+                            {text: 'PlaceholderAPI', link: '/basic/plugin_and_mod/server/placeholderapi/'},
+                            {text: 'PluginManager', link: '/basic/plugin_and_mod/server/pluginmanager/'},
+                            {text: 'ProtocolLib', link: '/basic/plugin_and_mod/server/protocollib/'},
+                            {text: 'Quests', link: '/basic/plugin_and_mod/server/quests/'},
+                            {text: 'WorldEdit', link: '/basic/plugin_and_mod/server/worldedit/'},
                         ]
                     },
                 ]

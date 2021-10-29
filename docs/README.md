@@ -16,7 +16,7 @@ features: # 可选的
   imgUrl: /img/ui.png
 - title: 效果展示
   details: 虚拟校园效果展示【开发中】
-  link: /display/virtual_campus/
+  link: /display/virtual-campus/
   imgUrl: /img/other.png
 postList: none
 ---

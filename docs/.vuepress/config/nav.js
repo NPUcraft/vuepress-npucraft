@@ -5,7 +5,7 @@ module.exports = [
         text: '介绍',
         // link: '/intro/',
         items: [
-            {text: '本站介绍', link: '/intro/this/'},
+            {text: '本站介绍', link: '/intro/website/'},
             {text: '复原工程简介', link: '/intro/reconstruction/'},
         ]
     },
@@ -14,7 +14,7 @@ module.exports = [
         // link: '/basic/',
         items: [
             {
-                text: '扫盲',
+                text: 'MC基础',
                 // link: '/basic/introduction/',
                 items: [
                     {text: 'Minecraft简介', link: '/basic/introduction/mc/'},
@@ -23,92 +23,67 @@ module.exports = [
                 ]
             },
             {
-                text: '开服指南',
-                // link: '/basic/setup',
+                text: '计算机基础',
+                // link: '/basic/introduction/',
                 items: [
-                    {
-                        text: '服务器核心',
-                        link: '/basic/setup/server_core/vanilla/',
-                        items: [
-                            {text: 'Vanilla', link: '/basic/setup/server_core/vanilla/'},
-                            {text: 'Forge', link: '/basic/setup/server_core/forge/'},
-                            {text: 'Fabric', link: '/basic/setup/server_core/fabric/'},
-                            {text: 'Spigot', link: '/basic/setup/server_core/spigot/'},
-                            {text: 'Paper', link: '/basic/setup/server_core/paper/'},
-                            {text: 'Mohist', link: '/basic/setup/server_core/mohist/'},
-                        ]
-                    },
-                    {
-                        text: '服务器代理',
-                        link: '/basic/setup/proxy/bungeecord/',
-                        items: [
-                            {text: 'BungeeCord', link: '/basic/setup/proxy/bungeecord/'},
-                            {text: 'Waterfall', link: '/basic/setup/proxy/waterfall/'},
-                            {text: 'Velocity', link: '/basic/setup/proxy/velocity/'},
-                        ]
-                    },
-                ]
-            },
-            {
-                text: '常用插件/模组',
-                // link: '/basic/plugin_mod/',
-                items: [
-                    {
-                        text: '客户端',
-                        link: '/basic/plugin_and_mod/client/voxelmap/',
-                        items: [
-                            {text: 'VoxelMap', link: '/basic/plugin_and_mod/client/voxelmap/'},
-                            {text: 'Litematica', link: '/basic/plugin_and_mod/client/litematica/'},
-                            {text: 'Wthit', link: '/basic/plugin_and_mod/client/wthit/'},
-                            {text: 'Tweakeroo', link: '/basic/plugin_and_mod/client/tweakeroo/'},
-                            {text: 'ReplayMod', link: '/basic/plugin_and_mod/client/replaymod/'}
-                        ]
-                    },
-                    {
-                        text: '服务端',
-                        link: '/basic/plugin_and_mod/server/authme/',
-                        items: [
-                            {text: 'Authme', link: '/basic/plugin_and_mod/server/authme/'},
-                            {text: 'AdvancedPortals', link: '/basic/plugin_and_mod/server/advancedportals/'},
-                            {text: 'CoreProtect', link: '/basic/plugin_and_mod/server/coreprotect/'},
-                            {text: 'EssentialsX', link: '/basic/plugin_and_mod/server/essentialsx/'},
-                            {text: 'SkinsRestorer', link: '/basic/plugin_and_mod/server/skinsrestorer/'},
-                            {text: 'LuckPerms', link: '/basic/plugin_and_mod/server/luckperms/'},
-                            {text: 'PlaceholderAPI', link: '/basic/plugin_and_mod/server/placeholderapi/'},
-                            {text: 'PluginManager', link: '/basic/plugin_and_mod/server/pluginmanager/'},
-                            {text: 'ProtocolLib', link: '/basic/plugin_and_mod/server/protocollib/'},
-                            {text: 'Quests', link: '/basic/plugin_and_mod/server/quests/'},
-                            {text: 'WorldEdit', link: '/basic/plugin_and_mod/server/worldedit/'},
-                        ]
-                    },
+                    {text: '编程规范', link: '/development/start/standrad/'},
+                    {text: 'Windows基础', link: '/advanced/course/windows/'},
+                    {text: 'Linux基础', link: '/advanced/course/linux/'},
                 ]
             },
         ]
     },
     {
-        text: '专业学习',
-        // link: '/knowledge/',
+        text: '进阶学习',
+        // link: '/advanced/',
         items: [
             {
-                text: '编程语言',
-                // link: '/knowledge/language/',
+                text: '开服指南',
+                // link: '/advanced/server',
                 items: [
-                    {text: 'C++', link: '/knowledge/language/cpp/'},
-                    {text: 'Java', link: '/knowledge/language/java/'},
-                    {text: 'Python', link: '/knowledge/language/python/'},
-                    {text: 'JavaScript', link: '/knowledge/language/javascript/'},
+                    {
+                        text: '服务器核心',
+                        link: '/basic/setup/server_core/vanilla/',
+                        items: [
+                            {text: 'Vanilla', link: '/advanced/server/server_core/vanilla/'},
+                            {text: 'Forge', link: '/advanced/server/server_core/forge/'},
+                            {text: 'Fabric', link: '/advanced/server/server_core/fabric/'},
+                            {text: 'Spigot', link: '/advanced/server/server_core/spigot/'},
+                            {text: 'Paper', link: '/advanced/server/server_core/paper/'},
+                            {text: 'Mohist', link: '/advanced/server/server_core/mohist/'},
+                        ]
+                    },
+                    {
+                        text: '服务器代理',
+                        link: '/advanced/server/proxy/bungeecord/',
+                        items: [
+                            {text: 'BungeeCord', link: '/advanced/server/proxy/bungeecord/'},
+                            {text: 'Waterfall', link: '/advanced/server/proxy/waterfall/'},
+                            {text: 'Velocity', link: '/advanced/server/proxy/velocity/'},
+                        ]
+                    },
                 ]
             },
             {
-                text: '学科知识',
-                // link: '/knowledge/course/',
+                text: '编程语言',
+                // link: '/advanced/language/',
                 items: [
-                    {text: '数据结构', link: '/knowledge/course/data_structure/'},
-                    {text: '计算机操作系统', link: '/knowledge/course/operating_system/'},
-                    {text: '数据库系统', link: '/knowledge/course/database/'},
-                    {text: '计算机网络', link: '/knowledge/course/network/'},
-                    {text: '算法设计与分析', link: '/knowledge/course/algorithm/'},
-                    {text: 'Linux基础', link: '/knowledge/course/linux/'},
+                    {text: 'Java', link: '/advanced/language/java/'},
+                    {text: 'C++', link: '/advanced/language/cpp/'},
+                    {text: 'Python', link: '/advanced/language/python/'},
+                    {text: 'JavaScript', link: '/advanced/language/javascript/'},
+                ]
+            },
+            {
+                text: '专业课程',
+                // link: '/advanced/course/',
+                items: [
+                    {text: '数据结构', link: '/advanced/course/data_structure/'},
+                    {text: '计算机操作系统', link: '/advanced/course/operating_system/'},
+                    {text: '数据库系统', link: '/advanced/course/database/'},
+                    {text: '计算机网络', link: '/advanced/course/network/'},
+                    {text: '算法设计与分析', link: '/advanced/course/algorithm/'},
+                    {text: '软件测试', link: '/advanced/course/testing/'},
                 ]
             },
         ]
@@ -127,33 +102,30 @@ module.exports = [
             },
             {
                 text: '原版开发',
-                // link: '/development/mc/',
+                // link: '/development/official/',
                 items: [
-                    {text: '资源包', link: '/development/official/resource_package/'},
-                    {text: '数据包', link: '/development/official/data_pack/'},
+                    {text: '资源包', link: '/development/official/resourcepack/'},
+                    {text: '数据包', link: '/development/official/datapack/'},
                 ]
             },
             {
                 text: '非原版开发',
-                // link: '/development/mc/',
+                // link: '/development/unofficial/',
                 items: [
                     {
                         text: '模组', link: '/development/unofficial/mod/forge/',
                         items: [
                             {text: 'Forge', link: '/development/unofficial/mod/forge/'},
                             {text: 'Fabric', link: '/development/unofficial/mod/fabric/'},
+                            {text: 'Sponge', link: '/development/unofficial/mod/sponge/'},
                         ]
                     },
                     {
                         text: '插件', link: '/development/unofficial/plugin/bukkit/',
                         items: [
                             {text: 'Bukkit', link: '/development/unofficial/plugin/bukkit/'},
-                            {text: 'Spigot', link: '/development/unofficial/plugin/spigot/'},
-                            {text: 'Paper', link: '/development/unofficial/plugin/paper/'},
-                            {text: 'Sponge', link: '/development/unofficial/plugin/sponge/'},
-                            {text: 'Velocity', link: '/development/unofficial/plugin/velocity/'},
                             {text: 'BungeeCord', link: '/development/unofficial/plugin/bungeecord/'},
-                            {text: 'Waterfall', link: '/development/unofficial/plugin/waterfall/'},
+                            {text: 'Velocity', link: '/development/unofficial/plugin/velocity/'},
                         ]
                     },
                 ]
@@ -174,39 +146,75 @@ module.exports = [
                     {text: 'Blockbuster', link: '/development/animation/blockbuster/'},
                     {text: 'Lumion', link: '/development/animation/lumion/'},
                 ]
-            }
+            },
+        ]
+    },
+    {
+        text: '实用程序',
+        // link: '/utility/',
+        items: [
+            {
+                text: '网络工具',
+                // link: '/utility/network/',
+                items: [
+                    {text: 'Frp', link: '/utility/network/frp/'},
+                    {text: 'Nginx', link: '/utility/network/nginx/'},
+                ]
+            },
+            {
+                text: '服务端管理',
+                // link: '/utility/server/',
+                items: [
+                    {text: 'VPS', link: '/utility/server/vps/'},
+                    {text: 'MCSManager', link: '/utility/server/mcsmanager/'},
+                    {text: 'MCDR', link: '/utility/server/mcdr/'},
+                ]
+            },
+            {
+                text: '常用插件/模组',
+                // link: '/utility/plugin_and_mod/',
+                items: [
+                    {
+                        text: '客户端',
+                        link: '/utility/plugin_and_mod/client/voxelmap/',
+                        items: [
+                            {text: 'VoxelMap', link: '/utility/plugin_and_mod/client/voxelmap/'},
+                            {text: 'Litematica', link: '/utility/plugin_and_mod/client/litematica/'},
+                            {text: 'Wthit', link: '/utility/plugin_and_mod/client/wthit/'},
+                            {text: 'Tweakeroo', link: '/utility/plugin_and_mod/client/tweakeroo/'},
+                            {text: 'ReplayMod', link: '/utility/plugin_and_mod/client/replaymod/'}
+                        ]
+                    },
+                    {
+                        text: '服务端',
+                        link: '/utility/plugin_and_mod/server/authme/',
+                        items: [
+                            {text: 'Authme', link: '/utility/plugin_and_mod/server/authme/'},
+                            {text: 'AdvancedPortals', link: '/utility/plugin_and_mod/server/advancedportals/'},
+                            {text: 'CoreProtect', link: '/utility/plugin_and_mod/server/coreprotect/'},
+                            {text: 'EssentialsX', link: '/utility/plugin_and_mod/server/essentialsx/'},
+                            {text: 'SkinsRestorer', link: '/utility/plugin_and_mod/server/skinsrestorer/'},
+                            {text: 'LuckPerms', link: '/utility/plugin_and_mod/server/luckperms/'},
+                            {text: 'PlaceholderAPI', link: '/utility/plugin_and_mod/server/placeholderapi/'},
+                            {text: 'PluginManager', link: '/utility/plugin_and_mod/server/pluginmanager/'},
+                            {text: 'ProtocolLib', link: '/utility/plugin_and_mod/server/protocollib/'},
+                            {text: 'Quests', link: '/utility/plugin_and_mod/server/quests/'},
+                            {text: 'WorldEdit', link: '/utility/plugin_and_mod/server/worldedit/'},
+                        ]
+                    },
+                ]
+            },
         ]
     },
     {
         text: '项目文档',
         // link: '/docs/',
         items: [
-            {text: 'LingCat-bot', link: '/docs/lingcat-bot/'},
+            {text: 'LingCat-bot/灵喵', link: '/docs/lingcat-bot/'},
             {text: '复原工程Forge版mod', link: '/docs/build-the-world-for-npu/'},
             {text: '复原工程Fabric版mod', link: '/docs/npu_construction_mod/'},
             {text: 'jmc2obj模型导出', link: '/docs/jmc2obj/'},
             {text: '洞穴与山崖数据包', link: '/docs/npu_caves_cliffs/'},
-        ]
-    },
-    {
-        text: '实用工具',
-        // link: '/tools/',
-        items: [
-            {
-                text: '网络工具',
-                // link: '/tools/network/',
-                items: [
-                    {text: 'Frp', link: '/tools/network/frp/'},
-                    {text: 'Nginx', link: '/tools/network/nginx/'},
-                ]
-            },
-            {
-                text: '服务端管理',
-                // link: '/tools/mc/',
-                items: [
-                    {text: 'MCSManager', link: '/tools/mc/mcsmanager/'},
-                ]
-            }
         ]
     },
     {
@@ -229,9 +237,8 @@ module.exports = [
         items: [
             {text: '个人介绍', link: '/about/self_introduction/'},
             {text: '友情链接', link: '/about/friends/'},
-            {text: '感谢', link: '/about/thanks/'}
+            {text: '鸣谢', link: '/about/thanks/'}
         ]
 
-    }
-
+    },
 ]

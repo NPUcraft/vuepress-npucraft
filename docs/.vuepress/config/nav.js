@@ -165,7 +165,6 @@ module.exports = [
                 text: '服务端管理',
                 // link: '/utility/server/',
                 items: [
-                    {text: 'VPS', link: '/utility/server/vps/'},
                     {text: 'MCSManager', link: '/utility/server/mcsmanager/'},
                     {text: 'MCDR', link: '/utility/server/mcdr/'},
                 ]

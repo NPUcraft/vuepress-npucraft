@@ -15,20 +15,48 @@ module.exports = [
         items: [
             {
                 text: 'MC基础',
-                // link: '/basic/introduction/',
+                // link: '/basic/mc/',
                 items: [
-                    {text: 'Minecraft简介', link: '/basic/introduction/mc/'},
-                    {text: '客户端', link: '/basic/introduction/client/'},
-                    {text: '服务端', link: '/basic/introduction/server/'},
+                    {text: 'Minecraft简介', link: '/basic/mc/introduction/'},
+                    {text: '客户端', link: '/basic/mc/client/'},
+                    {text: '服务端', link: '/basic/mc/server/'},
+                ]
+            },
+            {
+                text: '开服指南',
+                // link: '/basic/server',
+                items: [
+                    {
+                        text: '服务器核心',
+                        link: '/basic/server/server-core/vanilla/',
+                        items: [
+                            {text: 'Vanilla', link: '/basic/server/server-core/vanilla/'},
+                            {text: 'Forge', link: '/basic/server/server-core/forge/'},
+                            {text: 'Fabric', link: '/basic/server/server-core/fabric/'},
+                            {text: 'Spigot', link: '/basic/server/server-core/spigot/'},
+                            {text: 'Paper', link: '/basic/server/server-core/paper/'},
+                            {text: 'Mohist', link: '/basic/server/server-core/mohist/'},
+                            {text: 'Sponge', link: '/basic/server/server-core/sponge/'},
+                        ]
+                    },
+                    {
+                        text: '服务器代理',
+                        link: '/basic/server/proxy/bungeecord/',
+                        items: [
+                            {text: 'BungeeCord', link: '/basic/server/proxy/bungeecord/'},
+                            {text: 'Waterfall', link: '/basic/server/proxy/waterfall/'},
+                            {text: 'Velocity', link: '/basic/server/proxy/velocity/'},
+                        ]
+                    },
                 ]
             },
             {
                 text: '计算机基础',
-                // link: '/basic/introduction/',
+                // link: '/basic/computer/',
                 items: [
-                    {text: '编程规范', link: '/development/start/standrad/'},
-                    {text: 'Windows基础', link: '/advanced/course/windows/'},
-                    {text: 'Linux基础', link: '/advanced/course/linux/'},
+                    {text: '编程规范', link: '/basic/computer/standrad/'},
+                    {text: 'Windows基础', link: '/advanced/computer/windows/'},
+                    {text: 'Linux基础', link: '/advanced/computer/linux/'},
                 ]
             },
         ]
@@ -37,33 +65,6 @@ module.exports = [
         text: '进阶学习',
         // link: '/advanced/',
         items: [
-            {
-                text: '开服指南',
-                // link: '/advanced/server',
-                items: [
-                    {
-                        text: '服务器核心',
-                        link: '/basic/setup/server_core/vanilla/',
-                        items: [
-                            {text: 'Vanilla', link: '/advanced/server/server_core/vanilla/'},
-                            {text: 'Forge', link: '/advanced/server/server_core/forge/'},
-                            {text: 'Fabric', link: '/advanced/server/server_core/fabric/'},
-                            {text: 'Spigot', link: '/advanced/server/server_core/spigot/'},
-                            {text: 'Paper', link: '/advanced/server/server_core/paper/'},
-                            {text: 'Mohist', link: '/advanced/server/server_core/mohist/'},
-                        ]
-                    },
-                    {
-                        text: '服务器代理',
-                        link: '/advanced/server/proxy/bungeecord/',
-                        items: [
-                            {text: 'BungeeCord', link: '/advanced/server/proxy/bungeecord/'},
-                            {text: 'Waterfall', link: '/advanced/server/proxy/waterfall/'},
-                            {text: 'Velocity', link: '/advanced/server/proxy/velocity/'},
-                        ]
-                    },
-                ]
-            },
             {
                 text: '编程语言',
                 // link: '/advanced/language/',

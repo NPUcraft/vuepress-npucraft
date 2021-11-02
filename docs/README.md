@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: NPUcraft 有你所想
+heroText: NPUcraft 学习笔记
 tagline: 
 actionText: 快速入门 →
 actionLink: /development/start/git/
@@ -15,7 +15,7 @@ features: # 可选的
   link: /docs/lingcat-bot/
   imgUrl: /img/ui.png
 - title: 效果展示
-  details: 虚拟校园效果展示【开发中】
+  details: 虚拟校园
   link: /display/virtual-campus/
   imgUrl: /img/other.png
 postList: none

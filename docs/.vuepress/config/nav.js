@@ -222,7 +222,8 @@ module.exports = [
         ]
     },
     {
-        text: '效果展示',
+        // text: '效果展示',
+        text: '地图开发',
         // link: '/display/',
         items: [
             {
@@ -234,15 +235,15 @@ module.exports = [
             },
         ]
     },
-    {
-        text: '关于',
-        // link: '/about/',
-        items: [
-            // 先暂时不显示，直至等备案完成
-            // {text: '个人介绍', link: '/about/self-introduction/'},
-            // {text: '友情链接', link: '/about/friends/'},
-            {text: '鸣谢', link: '/about/thanks/'}
-        ]
 
-    },
+    // 先暂时不显示，直至等备案完成
+    // {
+    //     text: '关于',
+    //     // link: '/about/',
+    //     items: [
+    //         {text: '个人介绍', link: '/about/self-introduction/'},
+    //         {text: '友情链接', link: '/about/friends/'},
+    //         {text: '鸣谢', link: '/about/thanks/'}
+    //     ]
+    // },
 ]

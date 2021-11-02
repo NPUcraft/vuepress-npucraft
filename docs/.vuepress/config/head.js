@@ -5,7 +5,7 @@ module.exports = [
         'meta',
         {
             name: 'keywords',
-            content: '大学生创新创业,技术博客技术文档,学习,JavaScript,js,vue,python,css3,html5,Node,git,github,markdown,Minecraft,mc,NPUcraft',
+            content: '大学生创新创业,技术文档,学习,JavaScript,js,vue,python,css3,html5,Node,git,github,markdown,Minecraft,mc,NPUcraft',
         },
     ],
     ['meta', {name: 'baidu-site-verification', content: '7F55weZDDc'}], // 百度统计的站长验证

@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: NPUcraft 学习笔记
-tagline: 
+tagline: 记录本人在大学生创新创业项目开发过程中的学习笔记
 actionText: 快速入门 →
 actionLink: /development/start/git/
 lang: zh-CN
@@ -14,7 +14,7 @@ features: # 可选的
   details: GitHub仓库文档
   link: /docs/lingcat-bot/
   imgUrl: /img/ui.png
-- title: 效果展示
+- title: 地图开发
   details: 虚拟校园
   link: /display/virtual-campus/
   imgUrl: /img/other.png

@@ -84,10 +84,24 @@ module.exports = {
         createYear: 2021, // 博客创建年份
         copyrightInfo:
             '<a href="https://github.com/NPUcraft" target="_blank" title="Github">' +
-            '<b>NPUcraft</b></a>' +
-            ' </p> ' +
-            '<a href="https://beian.miit.gov.cn/" target="_blank" title="ICP/IP地址/域名信息备案管理系统">' +
-            '<b>蜀ICP备2020036244号</b></a>',
+                '<b>NPUcraft</b>' +
+            '</a>' +
+            '</p>' +
+            '<div>' +
+                '<a target="_blank" href="https://beian.miit.gov.cn/" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">' +
+                    '<img src="" style="float:left;" alt=""/>' +
+                    '<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#646464;">' +
+                    '<b>蜀ICP备2020036244号</b>' +
+                    '</p>' +
+                '</a>' +
+                '&nbsp;&nbsp;&nbsp;&nbsp;' +
+                '<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010802001175" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">' +
+                    '<img src="./img/备案图标.png" style="float:left;" alt=""/>' +
+                    '<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#646464;">' +
+                    '<b>川公网安备 51010802001175号</b>' +
+                    '</p>' +
+                '</a>' +
+            '</div>',
     },
     // htmlModules // 插入hmtl(广告)模块
 }

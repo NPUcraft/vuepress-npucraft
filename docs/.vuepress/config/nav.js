@@ -236,14 +236,13 @@ module.exports = [
         ]
     },
 
-    // 先暂时不显示，直至等备案完成
-    // {
-    //     text: '关于',
-    //     // link: '/about/',
-    //     items: [
-    //         {text: '个人介绍', link: '/about/self-introduction/'},
-    //         {text: '友情链接', link: '/about/friends/'},
-    //         {text: '鸣谢', link: '/about/thanks/'}
-    //     ]
-    // },
+    {
+        text: '关于',
+        // link: '/about/',
+        items: [
+            {text: '个人介绍', link: '/about/self-introduction/'},
+            {text: '友情链接', link: '/about/friends/'},
+            {text: '鸣谢', link: '/about/thanks/'}
+        ]
+    },
 ]

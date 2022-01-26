@@ -3,8 +3,8 @@ home: true
 heroText: NPUcraft 学习笔记
 tagline: 记录本人在Minecraft开发创作过程中的学习笔记
 
-actionText: 云端抗疫，致敬逆行
-actionLink: /NPUcraft-2022/group-date-activity/
+actionText: 复原工程-2022寒假手册
+actionLink: /NPUcraft-2022/ReconstructionManual-WinterVacation/
 
 lang: zh-CN
 features: # 可选的
